@@ -2,11 +2,14 @@
 
 Instructions
 
-1. Start the mongo container. `cd docker_deploy && docker-compose up -d`.
-2. Npm install: `cd .. && npm install`
-3. Start the hapi server. `node server.js`
+1. Start the mongo container. `docker-compose up -d`.
+2. Npm install: `npm install`
+3. Build project: `npm run-script build`
+4. Start the hapi server. `node server.js`
+5. Visit `0.0.0.0:5000` in your browser.
 
-==Standard CRA README below here==
+## _Standard CRA README below here_
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
