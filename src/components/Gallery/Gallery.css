@@ -1,0 +1,36 @@
+.gallery {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.gallery .square {
+  height: 10vh;
+  width: 5vw;
+  /* margin: 0vh 5vh; */
+}
+
+.gallery .swatch {
+  pointer-events: none;
+}
+
+.gallery .history {
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.history p {
+  margin: 0em;
+}
+
+@media screen and (max-width: 600px) {
+  .gallery .history {
+    height: 5vh;
+  }
+
+  .gallery .square {
+    height: 5vh;
+  }
+}

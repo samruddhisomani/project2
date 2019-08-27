@@ -1,3 +1,12 @@
+# Inspired Palettes
+
+Instructions
+
+1. Start the mongo container. `cd docker_deploy && docker-compose up -d`.
+2. Npm install: `cd .. && npm install`
+3. Start the hapi server. `node server.js`
+
+==Standard CRA README below here==
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
